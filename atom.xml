@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-23T11:01:00.618Z</updated>
+  <updated>2018-01-23T11:24:47.890Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/01/23/fix-centos-local/"/>
     <id>http://yoursite.com/2018/01/23/fix-centos-local/</id>
     <published>2018-01-23T10:36:49.000Z</published>
-    <updated>2018-01-23T11:01:00.618Z</updated>
+    <updated>2018-01-23T11:24:47.890Z</updated>
     
-    <content type="html"><![CDATA[<p>每次登录 Centos 服务器的时候都会出现如下警告:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</span><br></pre></td></tr></table></figure></p><p>这种警告到底是什么原因导致的呢？</p>]]></content>
+    <content type="html"><![CDATA[<p>每次登录 Centos 服务器的时候都会出现如下警告:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</span><br></pre></td></tr></table></figure></p><p>这种警告到底是什么原因导致的呢？<br>我们应该了解计算机的Local到底是什么？这篇文章写的很好<strong><a href="http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html" target="_blank" rel="noopener">点击查看</a></strong></p><ul><li>运行 <strong>locale -a</strong> 查看系统当前支持的 locale 定义。</li><li>运行 <strong>localedef -v -c -i en_US -f UTF-8 en_US.UTF-8</strong> 生成相应的locale配置文件</li></ul><p>完整的解决方案：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># tee /etc/environment &lt;&lt;- &apos;EOF&apos;</span><br><span class="line"> LANG=en_US.utf-8</span><br><span class="line"> LC_ALL=</span><br><span class="line"> EOF</span><br><span class="line"></span><br><span class="line"># source /etc/environment</span><br><span class="line">/* 生成 en_US.UTF-8 locale文件 CentOS没有locale-gen命令*/</span><br><span class="line"># localedef -v -c -i en_US -f UTF-8 en_US.UTF-8</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     

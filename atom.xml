@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaococo.github.io/"/>
-  <updated>2018-01-23T11:24:47.890Z</updated>
+  <updated>2018-01-24T04:49:50.023Z</updated>
   <id>https://yaococo.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Centos 服务器配置阿里云免费AC证书</title>
+    <link href="https://yaococo.github.io/2018/01/24/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9AC%E8%AF%81%E4%B9%A6/"/>
+    <id>https://yaococo.github.io/2018/01/24/服务器配置阿里云免费AC证书/</id>
+    <published>2018-01-24T03:34:22.000Z</published>
+    <updated>2018-01-24T04:49:50.023Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Nginx-配置文件"><a href="#Nginx-配置文件" class="headerlink" title="Nginx 配置文件"></a>Nginx 配置文件</h3><p>阿里云服务器的配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Centos-7.2</span><br><span class="line">Nginx-1.10.0</span><br><span class="line">PHP-5.6.22</span><br><span class="line">MaraiDB-10.0.23</span><br></pre></td></tr></table></figure><p>你的网站可以同时支持 HTTP 与 HTTPS，HTTP 默认的端口号是 80，HTTPS 的默认端口号是 443。也就是如果你的网站要使用 HTTPS，你需要配置网站服务器，让它监听 443 端口，就是用户使用 HTTPS 发出的请求。</p><p>下面是一个基本的监听 443 端口，使用了 SSL 证书的 NGINX 配置文件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen       443;</span><br><span class="line">  server_name  yoursite.com;</span><br><span class="line">  ssl          on;</span><br><span class="line">  root         /mnt/www/yoursite.com;</span><br><span class="line">  index        index.html index.php;</span><br><span class="line"></span><br><span class="line">  ssl_certificate   /etc/nginx/ssl/yoursite.com/*.pem;</span><br><span class="line">  ssl_certificate_key  /etc/nginx/ssl/yoursite.com/*.key;</span><br><span class="line">  ssl_session_timeout 5m;</span><br><span class="line">  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">  ssl_ciphers AESGCM:ALL:!DH:!EXPORT:!RC4:+HIGH:!MEDIUM:!LOW:!aNULL:!eNULL;</span><br><span class="line">  ssl_prefer_server_ciphers on;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面的配置里，ssl_certificate 与 ssl_certificate_key 这两个指令指定使用了两个文件，就是你下载的证书，解压之后看到的那两个文件，一个是 *.pem，一个是 *.key。你要把这两个文件上传到服务器上的某个目录的下面。</p><p>重新加载 NGINX 服务：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service nginx reload</span><br></pre></td></tr></table></figure><p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure></p><p>Nginx 配置301重定向的方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen        80;</span><br><span class="line">  server_name   ninghao.org;</span><br><span class="line">  return 301    https://$host$request_uri;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Nginx-配置文件&quot;&gt;&lt;a href=&quot;#Nginx-配置文件&quot; class=&quot;headerlink&quot; title=&quot;Nginx 配置文件&quot;&gt;&lt;/a&gt;Nginx 配置文件&lt;/h3&gt;&lt;p&gt;阿里云服务器的配置：&lt;/p&gt;
+&lt;figure class=&quot;highligh
+      
+    
+    </summary>
+    
+    
+      <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
+    
+      <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="https" scheme="https://yaococo.github.io/tags/https/"/>
+    
+      <category term="AC证书" scheme="https://yaococo.github.io/tags/AC%E8%AF%81%E4%B9%A6/"/>
+    
+      <category term="数字证书" scheme="https://yaococo.github.io/tags/%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6/"/>
+    
+      <category term="阿里云免费证书" scheme="https://yaococo.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS 下解决 SSH 登录 Locale 警告问题</title>
@@ -37,31 +71,9 @@
       <category term="服务器" scheme="https://yaococo.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     
-      <category term="Centos" scheme="https://yaococo.github.io/tags/Centos/"/>
-    
       <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-  </entry>
-  
-  <entry>
-    <title>article title</title>
-    <link href="https://yaococo.github.io/2018/01/23/article-title/"/>
-    <id>https://yaococo.github.io/2018/01/23/article-title/</id>
-    <published>2018-01-23T05:08:07.000Z</published>
-    <updated>2018-01-23T07:02:08.083Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="搭建博客" scheme="https://yaococo.github.io/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="npm" scheme="https://yaococo.github.io/tags/npm/"/>
-    
-      <category term="hexo" scheme="https://yaococo.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="https://yaococo.github.io/tags/github/"/>
+      <category term="Centos" scheme="https://yaococo.github.io/tags/Centos/"/>
     
   </entry>
   

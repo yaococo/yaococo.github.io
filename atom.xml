@@ -36,9 +36,9 @@
     </summary>
     
     
-      <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
-    
       <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+      <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
     
       <category term="https" scheme="https://yaococo.github.io/tags/https/"/>
     
@@ -71,9 +71,9 @@
       <category term="服务器" scheme="https://yaococo.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     
-      <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Centos" scheme="https://yaococo.github.io/tags/Centos/"/>
+    
+      <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   

@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://yoursite.com/post-sitemap.xml</loc>
+        <loc>https://yaococo.github.io/post-sitemap.xml</loc>
         <lastmod>2018-01-23T11:24:47.890Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/page-sitemap.xml</loc>
+        <loc>https://yaococo.github.io/page-sitemap.xml</loc>
         <lastmod>2018-01-23T07:02:59.578Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/category-sitemap.xml</loc>
+        <loc>https://yaococo.github.io/category-sitemap.xml</loc>
         <lastmod>2018-01-23T07:02:08.083Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/tag-sitemap.xml</loc>
+        <loc>https://yaococo.github.io/tag-sitemap.xml</loc>
         <lastmod>2018-01-23T07:02:08.083Z</lastmod>
     </sitemap>
 

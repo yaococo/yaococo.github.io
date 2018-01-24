@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://yoursite.com</loc>
+        <loc>https://yaococo.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/01/23/fix-centos-local/</loc>
+        <loc>https://yaococo.github.io/2018/01/23/fix-centos-local/</loc>
         <lastmod>2018-01-23T11:24:47.890Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -15,7 +15,7 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/01/23/article-title/</loc>
+        <loc>https://yaococo.github.io/2018/01/23/article-title/</loc>
         <lastmod>2018-01-23T07:02:08.083Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaococo.github.io/"/>
-  <updated>2018-01-25T03:39:57.384Z</updated>
+  <updated>2018-01-25T04:09:31.106Z</updated>
   <id>https://yaococo.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>生活感悟（一）</title>
+    <link href="https://yaococo.github.io/2018/01/25/2018%E7%94%9F%E6%B4%BB%E5%B1%95%E6%9C%9B/"/>
+    <id>https://yaococo.github.io/2018/01/25/2018生活展望/</id>
+    <published>2018-01-25T03:40:47.000Z</published>
+    <updated>2018-01-25T04:09:31.106Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2018-年我选择了家庭"><a href="#2018-年我选择了家庭" class="headerlink" title="2018 年我选择了家庭"></a>2018 年我选择了家庭</h1><p>2018 年我做出了一个我人生中重大的决定，不知道这个决定是对是错，但这个决定对我的职业生涯会产生很大的变化，我短时间放弃了一部分的工作时间，来陪伴我怀有身孕的妻子身边，我希望我的妻子在这段非常时期可以快乐安静的完成生产，顺利的产下我们爱的结晶。</p><p>我的价值观中，家庭占据我个人的绝大部分比例，家庭和睦幸福，才能够营造出更加和谐可持续的发展氛围，我希望我的决定没有错误。</p><p>我相信我自己，相信自己的做事方式，相信自己可以做好，而且也正在用我的实际行动来诠释我的言行，希望大家可以互相理解，我们的目标是共同的，希望不要让其他的事情影响了感情，影响了我们的共同的目标，愿景。</p><p>谨以此来警告自己，督促自己，完成自己想要达到的高度。</p><p><img src="/images/tea1.jpg" alt="茶精神"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;2018-年我选择了家庭&quot;&gt;&lt;a href=&quot;#2018-年我选择了家庭&quot; class=&quot;headerlink&quot; title=&quot;2018 年我选择了家庭&quot;&gt;&lt;/a&gt;2018 年我选择了家庭&lt;/h1&gt;&lt;p&gt;2018 年我做出了一个我人生中重大的决定，不知道这个决定是
+      
+    
+    </summary>
+    
+      <category term="Life" scheme="https://yaococo.github.io/categories/Life/"/>
+    
+    
+      <category term="Life" scheme="https://yaococo.github.io/tags/Life/"/>
+    
+      <category term="Family" scheme="https://yaococo.github.io/tags/Family/"/>
+    
+      <category term="2018" scheme="https://yaococo.github.io/tags/2018/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CentOs 服务器配置阿里云免费AC证书</title>
     <link href="https://yaococo.github.io/2018/01/24/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9AC%E8%AF%81%E4%B9%A6/"/>
     <id>https://yaococo.github.io/2018/01/24/服务器配置阿里云免费AC证书/</id>
     <published>2018-01-24T03:34:22.000Z</published>
-    <updated>2018-01-25T03:39:57.384Z</updated>
+    <updated>2018-01-25T04:10:28.870Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Nginx-配置文件"><a href="#Nginx-配置文件" class="headerlink" title="Nginx 配置文件"></a>Nginx 配置文件</h3><p>阿里云服务器的配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Centos-7.2</span><br><span class="line">Nginx-1.10.0</span><br><span class="line">PHP-5.6.22</span><br><span class="line">MaraiDB-10.0.23</span><br></pre></td></tr></table></figure><p>你的网站可以同时支持 HTTP 与 HTTPS，HTTP 默认的端口号是 80，HTTPS 的默认端口号是 443。也就是如果你的网站要使用 HTTPS，你需要配置网站服务器，让它监听 443 端口，就是用户使用 HTTPS 发出的请求。</p><p>下面是一个基本的监听 443 端口，使用了 SSL 证书的 NGINX 配置文件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen       443;</span><br><span class="line">  server_name  yoursite.com;</span><br><span class="line">  ssl          on;</span><br><span class="line">  root         /mnt/www/yoursite.com;</span><br><span class="line">  index        index.html index.php;</span><br><span class="line"></span><br><span class="line">  ssl_certificate   /etc/nginx/ssl/yoursite.com/*.pem;</span><br><span class="line">  ssl_certificate_key  /etc/nginx/ssl/yoursite.com/*.key;</span><br><span class="line">  ssl_session_timeout 5m;</span><br><span class="line">  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">  ssl_ciphers AESGCM:ALL:!DH:!EXPORT:!RC4:+HIGH:!MEDIUM:!LOW:!aNULL:!eNULL;</span><br><span class="line">  ssl_prefer_server_ciphers on;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面的配置里，ssl_certificate 与 ssl_certificate_key 这两个指令指定使用了两个文件，就是你下载的证书，解压之后看到的那两个文件，一个是 *.pem，一个是 *.key。你要把这两个文件上传到服务器上的某个目录的下面。</p><p>重新加载 NGINX 服务：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service nginx reload</span><br></pre></td></tr></table></figure><p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure></p><p>Nginx 配置301重定向的方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen        80;</span><br><span class="line">  server_name   ninghao.org;</span><br><span class="line">  return 301    https://$host$request_uri;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -35,8 +64,12 @@
     
     </summary>
     
+      <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
+    
     
       <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
+    
+      <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
     
       <category term="https" scheme="https://yaococo.github.io/tags/https/"/>
     
@@ -45,8 +78,6 @@
       <category term="数字证书" scheme="https://yaococo.github.io/tags/%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6/"/>
     
       <category term="阿里云免费证书" scheme="https://yaococo.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6/"/>
-    
-      <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
     
   </entry>
   
@@ -71,9 +102,9 @@
       <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
     
     
-      <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
       <category term="Centos" scheme="https://yaococo.github.io/tags/Centos/"/>
+    
+      <category term="服务器" scheme="https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   

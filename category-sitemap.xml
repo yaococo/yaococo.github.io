@@ -7,8 +7,15 @@
     </url>
 
     <url>
+        <loc>https://yaococo.github.io/categories/Life/</loc>
+        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://yaococo.github.io/categories/Server/</loc>
-        <lastmod>2018-01-25T03:38:42.475Z</lastmod>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

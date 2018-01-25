@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-        <lastmod>2018-01-25T03:38:42.475Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://yaococo.github.io/tags/Centos/</loc>
         <lastmod>2018-01-25T03:38:42.475Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -16,43 +9,71 @@
     </url>
 
     <url>
+        <loc>https://yaococo.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+        <lastmod>2018-01-25T03:38:42.475Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/Life/</loc>
+        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/Family/</loc>
+        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/2018/</loc>
+        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://yaococo.github.io/tags/centos/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/https/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/AC%E8%AF%81%E4%B9%A6/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://yaococo.github.io/tags/Server/</loc>
-        <lastmod>2018-01-25T03:39:57.384Z</lastmod>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/https/</loc>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/AC%E8%AF%81%E4%B9%A6/</loc>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6/</loc>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9%E8%AF%81%E4%B9%A6/</loc>
+        <lastmod>2018-01-25T04:10:28.870Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

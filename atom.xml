@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaococo.github.io/"/>
-  <updated>2018-01-25T04:09:31.106Z</updated>
+  <updated>2018-01-27T06:59:57.265Z</updated>
   <id>https://yaococo.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GIT克隆非Master命令</title>
+    <link href="https://yaococo.github.io/2018/01/27/GIT%E5%85%8B%E9%9A%86%E9%9D%9EMaster%E5%91%BD%E4%BB%A4/"/>
+    <id>https://yaococo.github.io/2018/01/27/GIT克隆非Master命令/</id>
+    <published>2018-01-27T06:39:06.000Z</published>
+    <updated>2018-01-27T06:59:57.265Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一下GIT克隆非 Master 分支代码。</p><p><code>git clone -b 分支名称 git@yourip:路径</code>  指定克隆分支</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;记录一下GIT克隆非 Master 分支代码。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git clone -b 分支名称 git@yourip:路径&lt;/code&gt;  指定克隆分支&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
+    
+    
+      <category term="git" scheme="https://yaococo.github.io/tags/git/"/>
+    
+      <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
+    
+  </entry>
   
   <entry>
     <title>生活感悟（一）</title>
@@ -67,9 +96,9 @@
       <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
     
     
-      <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
-    
       <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
+    
+      <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
     
       <category term="https" scheme="https://yaococo.github.io/tags/https/"/>
     

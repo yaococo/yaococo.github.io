@@ -16,27 +16,6 @@
     </url>
 
     <url>
-        <loc>https://yaococo.github.io/tags/Life/</loc>
-        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/Family/</loc>
-        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://yaococo.github.io/tags/2018/</loc>
-        <lastmod>2018-01-25T04:09:31.106Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://yaococo.github.io/tags/centos/</loc>
         <lastmod>2018-01-25T04:10:28.870Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,6 +51,13 @@
     </url>
 
     <url>
+        <loc>https://yaococo.github.io/tags/Server/</loc>
+        <lastmod>2018-01-27T06:59:57.265Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://yaococo.github.io/tags/git/</loc>
         <lastmod>2018-01-27T06:59:57.265Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -79,8 +65,22 @@
     </url>
 
     <url>
-        <loc>https://yaococo.github.io/tags/Server/</loc>
-        <lastmod>2018-01-27T06:59:57.265Z</lastmod>
+        <loc>https://yaococo.github.io/tags/Life/</loc>
+        <lastmod>2018-01-31T04:06:14.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/Family/</loc>
+        <lastmod>2018-01-31T04:06:14.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/2018/</loc>
+        <lastmod>2018-01-31T04:06:14.590Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

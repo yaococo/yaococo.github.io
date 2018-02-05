@@ -51,13 +51,6 @@
     </url>
 
     <url>
-        <loc>https://yaococo.github.io/tags/Server/</loc>
-        <lastmod>2018-01-27T06:59:57.265Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://yaococo.github.io/tags/git/</loc>
         <lastmod>2018-01-27T06:59:57.265Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,8 +58,8 @@
     </url>
 
     <url>
-        <loc>https://yaococo.github.io/tags/Life/</loc>
-        <lastmod>2018-01-31T04:06:14.590Z</lastmod>
+        <loc>https://yaococo.github.io/tags/Server/</loc>
+        <lastmod>2018-01-27T06:59:57.265Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -87,7 +80,28 @@
 
     <url>
         <loc>https://yaococo.github.io/tags/%E6%BC%94%E8%AE%B2%E7%A8%BF/</loc>
-        <lastmod>2018-02-01T02:03:23.482Z</lastmod>
+        <lastmod>2018-02-01T05:40:33.775Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/Laravel-Framework/</loc>
+        <lastmod>2018-02-01T08:45:17.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/PHP/</loc>
+        <lastmod>2018-02-01T08:45:17.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/tags/Life/</loc>
+        <lastmod>2018-02-05T09:35:19.298Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

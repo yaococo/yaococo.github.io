@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaococo.github.io/"/>
-  <updated>2018-02-05T09:45:39.589Z</updated>
+  <updated>2018-02-07T01:35:52.756Z</updated>
   <id>https://yaococo.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>回成都的路上</title>
+    <link href="https://yaococo.github.io/2018/02/07/%E5%9B%9E%E6%88%90%E9%83%BD%E7%9A%84%E8%B7%AF%E4%B8%8A/"/>
+    <id>https://yaococo.github.io/2018/02/07/回成都的路上/</id>
+    <published>2018-02-07T01:04:02.000Z</published>
+    <updated>2018-02-07T01:35:52.756Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>寒风刺骨的早晨，从家里坐班车来到了机场，准备回成都开年度总结会议，机场上闲暇时间，写了这篇日志，记录自己的心路历程，给未来的自己一个参考。</p><p>时隔三个多月再次回成都，内心的感受已没有先前的豪情壮志，仅存的是默默的感激，认识了那里的同事和哥们儿，他们很优秀，在那里我学习到了很多，使我受益匪浅。2017年度，希望我们还能够尽情享受我们的创业之旅，也希望我们的利益得到保障，更加希望企业健康平稳的成长。</p><p>现在想起生活在成都的日子，满满的都是美好的回忆，在那里生活让我感受到了那里淳朴的民风，各色的美食，还有成都人对生活的热爱，对朋友的热情。谢谢成都，谢谢给我帮助的所有人。</p><p>2018年我们要实现我们的目标，希望在不影响各自利益的情况下，共同努力，创造出属于我们自己的一片蓝天。</p></blockquote><p><img src="/images/air1.jpeg" alt="机场1"><br><img src="/images/air2.jpeg" alt="机场2"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;寒风刺骨的早晨，从家里坐班车来到了机场，准备回成都开年度总结会议，机场上闲暇时间，写了这篇日志，记录自己的心路历程，给未来的自己一个参考。&lt;/p&gt;
+&lt;p&gt;时隔三个多月再次回成都，内心的感受已没有先前的豪情壮志，仅存的是默默的感激，认识了那里的同事和
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>滑雪</title>
@@ -149,9 +172,9 @@
       <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
     
     
-      <category term="git" scheme="https://yaococo.github.io/tags/git/"/>
-    
       <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
+    
+      <category term="git" scheme="https://yaococo.github.io/tags/git/"/>
     
   </entry>
   
@@ -206,9 +229,9 @@
       <category term="Server" scheme="https://yaococo.github.io/categories/Server/"/>
     
     
-      <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
-    
       <category term="centos" scheme="https://yaococo.github.io/tags/centos/"/>
+    
+      <category term="Server" scheme="https://yaococo.github.io/tags/Server/"/>
     
       <category term="https" scheme="https://yaococo.github.io/tags/https/"/>
     

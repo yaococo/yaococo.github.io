@@ -14,13 +14,6 @@
     </url>
 
     <url>
-        <loc>https://yaococo.github.io/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/</loc>
-        <lastmod>2018-01-31T04:06:14.590Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://yaococo.github.io/categories/%E4%BC%98%E7%A7%80%E7%9A%84%E6%96%87%E7%AB%A0/</loc>
         <lastmod>2018-02-01T05:40:33.775Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -37,6 +30,13 @@
     <url>
         <loc>https://yaococo.github.io/categories/%E5%85%B4%E8%B6%A3/</loc>
         <lastmod>2018-02-05T09:45:39.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yaococo.github.io/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/</loc>
+        <lastmod>2018-02-23T03:41:50.634Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaococo.github.io/"/>
-  <updated>2018-03-01T05:29:41.029Z</updated>
+  <updated>2018-03-01T05:29:41.000Z</updated>
   <id>https://yaococo.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yaococo.github.io/2018/03/01/mariadb%E9%94%99%E8%AF%AF/"/>
     <id>https://yaococo.github.io/2018/03/01/mariadb错误/</id>
     <published>2018-03-01T05:27:05.000Z</published>
-    <updated>2018-03-01T05:29:41.029Z</updated>
+    <updated>2018-03-01T05:29:41.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="mariadb-missing-usr-local-etc-my-cnf-d"><a href="#mariadb-missing-usr-local-etc-my-cnf-d" class="headerlink" title="mariadb: missing /usr/local/etc/my.cnf.d"></a>mariadb: missing /usr/local/etc/my.cnf.d</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">☁  ~  mysql -u root -p</span><br><span class="line">mysql: Can&apos;t read dir of &apos;/usr/local/etc/my.cnf.d&apos; (Errcode: 2 &quot;No such file or directory&quot;)</span><br><span class="line">Fatal error in defaults handling. Program aborted</span><br></pre></td></tr></table></figure><p>处理方法：<br>创建丢失的目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /usr/local/etc/my.cnf.d</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -42,7 +42,7 @@
     <link href="https://yaococo.github.io/2018/02/23/%E6%98%A5%E8%8A%82%E8%BF%87%E5%90%8E%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://yaococo.github.io/2018/02/23/春节过后的开始/</id>
     <published>2018-02-23T03:22:10.000Z</published>
-    <updated>2018-02-23T03:41:50.634Z</updated>
+    <updated>2018-02-23T03:41:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>欢欢乐乐的春节渐渐远去<br>辛勤的耕耘即将开始<br>洒下希望的种子<br>尽情的呵护、打量儿<br>期盼来年迎来好的收成</p><p>默默无闻的开始新的征程<br>脚踏实地的望着远方<br>相信自己<br>跟着自己的节奏和信念前行<br>按照自己的规划走出一片天空<br>走着<br>跳着<br>跑着<br>打破常规，去除陈旧<br>新观念、新思想、新蓝图</p><p><img src="http://img.hb.aicdn.com/d55cd1b06fb150e3b0f0246eec2e1e1581d281a013827-mxaY1C_fw658" alt="sky"></p>]]></content>
     
@@ -72,7 +72,7 @@
     <link href="https://yaococo.github.io/2018/02/07/%E5%9B%9E%E6%88%90%E9%83%BD%E7%9A%84%E8%B7%AF%E4%B8%8A/"/>
     <id>https://yaococo.github.io/2018/02/07/回成都的路上/</id>
     <published>2018-02-07T01:04:02.000Z</published>
-    <updated>2018-02-07T01:35:52.756Z</updated>
+    <updated>2018-02-07T01:35:52.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>寒风刺骨的早晨，从家里坐班车来到了机场，准备回成都开年度总结会议，机场上闲暇时间，写了这篇日志，记录自己的心路历程，给未来的自己一个参考。</p><p>时隔三个多月再次回成都，内心的感受已没有先前的豪情壮志，仅存的是默默的感激，认识了那里的同事和哥们儿，他们很优秀，在那里我学习到了很多，使我受益匪浅。2017年度，希望我们还能够尽情享受我们的创业之旅，也希望我们的利益得到保障，更加希望企业健康平稳的成长。</p><p>现在想起生活在成都的日子，满满的都是美好的回忆，在那里生活让我感受到了那里淳朴的民风，各色的美食，还有成都人对生活的热爱，对朋友的热情。谢谢成都，谢谢给我帮助的所有人。</p><p>2018年我们要实现我们的目标，希望在不影响各自利益的情况下，共同努力，创造出属于我们自己的一片蓝天。</p></blockquote><p><img src="/images/air1.jpeg" alt="机场1"><br><img src="/images/air2.jpeg" alt="机场2"></p>]]></content>
     
@@ -95,7 +95,7 @@
     <link href="https://yaococo.github.io/2018/02/05/%E6%BB%91%E9%9B%AA/"/>
     <id>https://yaococo.github.io/2018/02/05/滑雪/</id>
     <published>2018-02-05T09:19:05.000Z</published>
-    <updated>2018-02-05T09:45:39.589Z</updated>
+    <updated>2018-02-05T09:45:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>想了好久要去滑雪，但是一直没有腾出时间，前天终于决定了，给哥们儿打了电话，去了离家最近的滑雪。</p><p>远远的看着滑雪场，感觉坡度很小，我哥们儿说了一句 :“靠，这么矬呀！”，不能够发挥他的实力呀，但我没有出声，因为我都三年没有滑过了，基本都已经忘的干干净净的了。于是我们俩买了票，我们两个各租个了板子，他拿了个双板，我拿了单板，开始了想了好久的滑雪。</p><p>三年没有滑，真的是胆子也小了，来到中级道上真的有些恐惧，达到顶上不敢往下滑，恐惧感特别的强烈。然后灰溜溜的走到了坡的中间，呵呵，这才顺利的滑了下去。摔了好几个大跟头，大手指也给戳了，不过还好，爬起了继续练习。</p><p>滑了两个小时后，我可以了，找到了感觉，开始在中级道上自由的滑行，没有一开始的恐惧感，顺利的完成了前刃后刃的以及刹车的练习，希望下一次滑可以顺利的滑出直线。</p><p>滑雪让你战胜恐惧，没有什么可以阻挡，又困难就勇敢的面对，一定可以取得胜利，克服困难的决心必须存在，不需要向任何人妥协。</p><p>正在准备下一次的滑雪，加紧练习技能，争取可以去崇礼自由的翱翔。</p><p><img src="/images/滑雪.jpg" alt="滑雪"></p>]]></content>
     
@@ -121,7 +121,7 @@
     <link href="https://yaococo.github.io/2018/02/01/composer%E5%8A%A0%E8%BD%BD%E6%9C%AC%E5%9C%B0%E8%B7%AF%E5%BE%84%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85/"/>
     <id>https://yaococo.github.io/2018/02/01/composer加载本地路径的第三方包/</id>
     <published>2018-02-01T05:36:48.000Z</published>
-    <updated>2018-02-01T08:45:17.606Z</updated>
+    <updated>2018-02-01T08:45:17.000Z</updated>
     
     <content type="html"><![CDATA[<p>Composer 提供了 <code>Path</code> 加载本地扩展包的方法</p>]]></content>
     
@@ -149,7 +149,7 @@
     <link href="https://yaococo.github.io/2018/02/01/%E5%80%BE%E5%90%AC%E7%9A%84%E5%8A%9B%E9%87%8F/"/>
     <id>https://yaococo.github.io/2018/02/01/倾听的力量/</id>
     <published>2018-02-01T01:59:30.000Z</published>
-    <updated>2018-02-01T05:40:33.775Z</updated>
+    <updated>2018-02-01T05:40:33.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="倾听得力量"><a href="#倾听得力量" class="headerlink" title="倾听得力量"></a>倾听得力量</h2><p>作者：熊浩</p><p>我们在一个沟通的时代。我们的舆论环境、氛围，包括我们正在录制的这档节目《我是演说家》，都在鼓励人们说话。孟金辉导演在他著名的话剧《恋爱的犀牛》当中有这样一句经典台词，他说如果你爱一个人10分，但却只能表达一分，倒不如你爱一个人一分，但却能够表达10分。说话之道，是我们这个时代的高频词汇，也是我想在座的每一位我们都想具备的特殊技能。</p><p>我在大学当中教授冲突解决，我帮助法院、医院、律所、企业解决各种各样问题，不同类型的纠纷。冲突见的多了我有一个非常有趣的表现，那就是很多本可以管控良好的冲突，很多本可以处理妥当的矛盾之所以最后爆发，其实是因为一些极为琐碎的原因，这其中最常见的就是我们好爱讲，但我们不愿意听。</p><p>哈佛大学法学院的教授威廉 尤里在他的代表作《谈判力》中举过这样一个具有引喻意味的故事，他说，我们设想一下我们是两个孩子的父母亲，有一天你拖着疲惫的身躯回到家中，你推开门发现两个孩子正在争抢一只橘子，你会怎么做？</p><p>作为法律人让我们把这个故事的细节勾勒的更加精准细腻。首先第一，你只有一只橘子，你不能从后面拿出一堆橘子说，没关系爸爸是种橘子的，这不行。因为这个冲突的本质是资源的有限，橘子的唯一，如果你有很多橘子本质上就没这个冲突，也就无所谓冲突的解决。第二，两个孩子当然都是亲生的，在这个前提下，你会怎么办？</p><p>大家可以用自己直觉快速的有一个答案，我大概会听到这样的几种：第一种哥哥应该让弟弟，因为所谓长幼有序；另外一些人会说弟弟应该让哥哥，因为孔融让梨；我想在座的各位，你们第一反应最快直觉是从中间掰开一人一半，这是一个看上去多像正确答案的答案。我们看看教授怎么说，哥哥拿走他的一半吃掉橘肉扔掉橘皮很正常，弟弟恰好相反，弟弟的做法是扔掉橘肉而留下橘皮。为什么？因为他需要烤蛋糕，大家知道，陈皮其实是西点烘焙当中常见的一种香料。</p><p>各位，刚才我所讲的如果不是一个故事，而是一个电影，我们回转、放映、定格，我们回到你分橘子前的那一瞬间我不知道在座各位有没有一点点感觉，就是你大概少做了一个动作，你让一半的资源被浪费，因为本来哥哥可以拿到一整只橘肉，而弟弟可以获得一整片橘皮，那个你漏掉的动作就是——听。</p><p>我们每个人都会听，但是要把听放到判断、了解、认知之前，这是一种需要特别学习的修行。</p><p>我们通常说我们是在沟通的时代，但是以我浅白的观察不是的，我们是在一个balabala演说的时代，我们太多人说话我们不大有听。美国的数据，他说现在美国的年轻人每天利用互联网向外发出100条以上的资讯，我们随时随刻要和这个世界保持联系，我们每分每秒都想发表我们的演说，但他们跟父母的互动在减少，更少的去聆听别人的意见。</p><p>当我们这个时代单一的强调说，鼓励说，我不是说有错，我说这个当中没有实现听与说的平衡，过分只强调说，我们将会变的越来越偏执。理由非常简单，因为当我说话的时候就像此际，我其实在强化既有的认知，各位听的时候是在张开你的耳朵试图聆听不一样的经验。更何况大家如果留意中国的互联网生态，我们一语不合，我们恶语相向。因为越激烈的言词才能显示立场，越过分的声音才能引发围观，只强调说，而忽略听，我们可能越来越极端而失去真相。</p><p>美国有一个有趣的访谈节目，它的主要内容就是主持人访谈一群小孩子，有一次主持人问小孩子一个问题说大家将来想做什么，其中一个小朋友举手说我想开飞机我想做飞行员，主持人说史密斯。那我问你一个有挑战性的问题，假如有一天你开着飞机飞到大洋之上没汽油了你会怎么办？孩子说，我会让我所有乘客都系好安全带，我自己背好降落伞包赶紧系下</p><p>去，我……他还想说他没说下去，因为他的言词已经被大人们笑声打断了，大人们自以为是的认为，你看，人性当中的恶连天真都包不住。</p><p>主持人没有，主持人仍然听，他好奇，他好奇说孩子为什么会这样想，当孩子发现他被聆听鼓励，孩子才有可能继续说下去。他说我要从飞机上跳下去我要找到汽油赶紧飞回来拯救所有的乘客。没有人再笑了，我们的自以为是让我们差点误会这孩子，我们以为发现了恶，殊不知那是被太阳淬炼过的童真的至善、善良。</p><p>当我们在强调听的价值，我们在说，我们每一个人声音、观念、阅历、体验都可以平等地被表达；</p><p>当我们在强调听的观念，我们是在说，你的话，我有雅量，我有耐心，我有责任让你讲完；</p><p>当我们在强调听的观念，我们绝不只是讲沟通当中的微小技术，我们是让大家回忆那些在人类历史上最闪光的价值观，它们是平等、宽容，以及对自以为是的节制。</p><p>我来到演说家这个舞台，我没有特别动人和夸张的故事。我只想给你传达一些重要但微小的观念，并呼吁大家和我们一起恢复听的习惯，一起来养育听的品德。因为只有这样我们人和人之间的沟通才有可能平和、开朗、通透，只有这样你们才能发现那个橘子背后孩子真实的诉求，也只有这样我们才能骄傲的说，真的，我们占据在一个叫沟通的大时代</p>]]></content>
     
@@ -175,7 +175,7 @@
     <link href="https://yaococo.github.io/2018/01/31/%E8%BF%B7%E8%8C%AB/"/>
     <id>https://yaococo.github.io/2018/01/31/迷茫/</id>
     <published>2018-01-31T03:04:18.000Z</published>
-    <updated>2018-01-31T04:06:14.590Z</updated>
+    <updated>2018-01-31T04:06:14.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>从成都回来的日子，有喜有忧，有得有失，工作的时间没有减少，而更多的是责任。每天要开车1个小时送老婆上班，时间也不固定，有时候五点出发，有时候七点出发，也有的时候十一点出发，视她的工作时间而定，剩下的时间都是我自己的了，我来到咖啡店或者她们单位的图书馆，我比较喜欢图书馆，因为那里有很多的学生，学习的气氛很浓郁，我喜欢那样的感觉，但是,不是每次都可以占到位置，去那里的人越来越多，她(他)们大部分都在研究她（他）们的课题，小小的图书馆里营造出浓浓的研究气氛，为我提供了安静的思考空间。</p></blockquote><hr><blockquote><p>最近忧虑的事情是我们合伙人之间的利益分配的问题出现了一点分歧，影响了我的心情，我相信我们可以顺利的解决这些问题，我所要求的也是我应该拿到的，这是无可厚非。<br>因为几件小小的事情和我的妻子在消费观念上产生了一些分歧，也许是我们没有互相站在对方的角度考虑问题而导致的，到现在我们的观念还是不同，也许需要时间来磨合，需要有一些家庭事件出现才可以解决这个根本问题。</p></blockquote><hr><blockquote><p>2018年上半年我们的事情就是如何来盈利，这个千古不变的事情，事情很艰巨但很实际，也是当前最棘手的事情。</p></blockquote><hr><blockquote><p>2018年我没有报太大的希望，我觉得2018年是一个很可怕的年份，整体的经济形势不容乐观，但是我们要逆流而上，完成我们的 Dream ，希望我们都很顺利。同时也希望我的家庭和睦，每个人身体健康，更加希望每一个人都可以完成自己的新一年的愿望。2018年我也希望我的宝宝👶能够顺顺利的降生，迎接他（她）的绚丽人生。</p></blockquote><hr><blockquote><p>今后，我会通过这个地方，来细细的品味我的2018年，她的2018，还有她（他）的第一年。</p></blockquote><p><img src="/images/hope.jpeg" alt="希望"></p>]]></content>
     
@@ -205,7 +205,7 @@
     <link href="https://yaococo.github.io/2018/01/27/GIT%E5%85%8B%E9%9A%86%E9%9D%9EMaster%E5%91%BD%E4%BB%A4/"/>
     <id>https://yaococo.github.io/2018/01/27/GIT克隆非Master命令/</id>
     <published>2018-01-27T06:39:06.000Z</published>
-    <updated>2018-01-27T06:59:57.265Z</updated>
+    <updated>2018-01-27T06:59:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>记录一下GIT克隆非 Master 分支代码。</p><p><code>git clone -b 分支名称 git@yourip:路径</code>  指定克隆分支</p>]]></content>
     
@@ -234,7 +234,7 @@
     <link href="https://yaococo.github.io/2018/01/25/2018%E7%94%9F%E6%B4%BB%E5%B1%95%E6%9C%9B/"/>
     <id>https://yaococo.github.io/2018/01/25/2018生活展望/</id>
     <published>2018-01-25T03:40:47.000Z</published>
-    <updated>2018-01-31T04:05:23.598Z</updated>
+    <updated>2018-01-31T04:05:23.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2018-年我选择了家庭"><a href="#2018-年我选择了家庭" class="headerlink" title="2018 年我选择了家庭"></a>2018 年我选择了家庭</h1><p>2018 年我做出了一个我人生中重大的决定，不知道这个决定是对是错，但这个决定对我的职业生涯会产生很大的变化，我短时间放弃了一部分的工作时间，来陪伴我怀有身孕的妻子身边，我希望我的妻子在这段非常时期可以快乐安静的完成生产，顺利的产下我们爱的结晶。</p><p>我的价值观中，家庭占据我个人的绝大部分比例，家庭和睦幸福，才能够营造出更加和谐可持续的发展氛围，我希望我的决定没有错误。</p><p>我相信我自己，相信自己的做事方式，相信自己可以做好，而且也正在用我的实际行动来诠释我的言行，希望大家可以互相理解，我们的目标是共同的，希望不要让其他的事情影响了感情，影响了我们的共同的目标，愿景。</p><p>谨以此来警告自己，督促自己，完成自己想要达到的高度。</p><p><img src="/images/tea1.png" alt="茶精神"></p>]]></content>
     
@@ -263,7 +263,7 @@
     <link href="https://yaococo.github.io/2018/01/24/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9AC%E8%AF%81%E4%B9%A6/"/>
     <id>https://yaococo.github.io/2018/01/24/服务器配置阿里云免费AC证书/</id>
     <published>2018-01-24T03:34:22.000Z</published>
-    <updated>2018-01-25T04:10:28.870Z</updated>
+    <updated>2018-01-25T04:10:28.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Nginx-配置文件"><a href="#Nginx-配置文件" class="headerlink" title="Nginx 配置文件"></a>Nginx 配置文件</h3><p>阿里云服务器的配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Centos-7.2</span><br><span class="line">Nginx-1.10.0</span><br><span class="line">PHP-5.6.22</span><br><span class="line">MaraiDB-10.0.23</span><br></pre></td></tr></table></figure><p>你的网站可以同时支持 HTTP 与 HTTPS，HTTP 默认的端口号是 80，HTTPS 的默认端口号是 443。也就是如果你的网站要使用 HTTPS，你需要配置网站服务器，让它监听 443 端口，就是用户使用 HTTPS 发出的请求。</p><p>下面是一个基本的监听 443 端口，使用了 SSL 证书的 NGINX 配置文件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen       443;</span><br><span class="line">  server_name  yoursite.com;</span><br><span class="line">  ssl          on;</span><br><span class="line">  root         /mnt/www/yoursite.com;</span><br><span class="line">  index        index.html index.php;</span><br><span class="line"></span><br><span class="line">  ssl_certificate   /etc/nginx/ssl/yoursite.com/*.pem;</span><br><span class="line">  ssl_certificate_key  /etc/nginx/ssl/yoursite.com/*.key;</span><br><span class="line">  ssl_session_timeout 5m;</span><br><span class="line">  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">  ssl_ciphers AESGCM:ALL:!DH:!EXPORT:!RC4:+HIGH:!MEDIUM:!LOW:!aNULL:!eNULL;</span><br><span class="line">  ssl_prefer_server_ciphers on;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面的配置里，ssl_certificate 与 ssl_certificate_key 这两个指令指定使用了两个文件，就是你下载的证书，解压之后看到的那两个文件，一个是 *.pem，一个是 *.key。你要把这两个文件上传到服务器上的某个目录的下面。</p><p>重新加载 NGINX 服务：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service nginx reload</span><br></pre></td></tr></table></figure><p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure></p><p>Nginx 配置301重定向的方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen        80;</span><br><span class="line">  server_name   ninghao.org;</span><br><span class="line">  return 301    https://$host$request_uri;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -299,7 +299,7 @@
     <link href="https://yaococo.github.io/2018/01/23/fix-centos-local/"/>
     <id>https://yaococo.github.io/2018/01/23/fix-centos-local/</id>
     <published>2018-01-23T10:36:49.000Z</published>
-    <updated>2018-01-25T03:38:42.475Z</updated>
+    <updated>2018-01-25T03:38:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>每次登录 Centos 服务器的时候都会出现如下警告:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory</span><br></pre></td></tr></table></figure></p><p>这种警告到底是什么原因导致的呢？<br>我们应该了解计算机的Local到底是什么？这篇文章写的很好<strong><a href="http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html" target="_blank" rel="noopener">点击查看</a></strong></p><ul><li>运行 <strong>locale -a</strong> 查看系统当前支持的 locale 定义。</li><li>运行 <strong>localedef -v -c -i en_US -f UTF-8 en_US.UTF-8</strong> 生成相应的locale配置文件</li></ul><p>完整的解决方案：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># tee /etc/environment &lt;&lt;- &apos;EOF&apos;</span><br><span class="line"> LANG=en_US.utf-8</span><br><span class="line"> LC_ALL=</span><br><span class="line"> EOF</span><br><span class="line"></span><br><span class="line"># source /etc/environment</span><br><span class="line">/* 生成 en_US.UTF-8 locale文件 CentOS没有locale-gen命令*/</span><br><span class="line"># localedef -v -c -i en_US -f UTF-8 en_US.UTF-8</span><br></pre></td></tr></table></figure></p>]]></content>
     

@@ -3,22 +3,22 @@
 
     <sitemap>
         <loc>https://yaococo.github.io/post-sitemap.xml</loc>
-        <lastmod>2018-03-01T05:29:41.029Z</lastmod>
+        <lastmod>2018-03-01T05:29:41.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://yaococo.github.io/page-sitemap.xml</loc>
-        <lastmod>2018-01-25T05:51:19.258Z</lastmod>
+        <lastmod>2018-01-25T05:51:19.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://yaococo.github.io/category-sitemap.xml</loc>
-        <lastmod>2018-01-27T06:59:57.265Z</lastmod>
+        <lastmod>2018-01-27T06:59:57.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://yaococo.github.io/tag-sitemap.xml</loc>
-        <lastmod>2018-01-25T03:38:42.475Z</lastmod>
+        <lastmod>2018-01-25T03:38:42.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>
